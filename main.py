@@ -58,6 +58,7 @@ app.add_middleware(DBSessionMiddleware, db_url=db_url)
 origins = [
     "http://localhost:3001",
     "http://localhost:3000",
+    "https://rafacorreac-supreme-space-acorn-j6r9gppxp9x25qxr-3000.preview.app.github.dev"
     # Add more origins if needed
 ]
 

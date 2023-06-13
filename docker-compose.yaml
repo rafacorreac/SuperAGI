@@ -30,7 +30,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - NEXT_PUBLIC_API_BASE_URL=http://localhost:8001
+      - NEXT_PUBLIC_API_BASE_URL=https://rafacorreac-supreme-space-acorn-j6r9gppxp9x25qxr-8001.preview.app.github.dev
     networks:
       - super_network
     volumes:
